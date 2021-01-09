@@ -641,8 +641,7 @@ int main()
 	}
 
 	DWORD process_id = GetPID("BlackOpsColdWar.exe");
-	HANDLE pHandle = OpenProcess(PROCESS_ALL_ACCESS, FALSE, process_id);
-//	HANDLE pHandle = HijackExistingHandle(process_id);
+	HANDLE pHandle = HijackExistingHandle(process_id);
 	DWORD base_address = GetModuleBaseAddress(process_id, "BlackOpsColdWar.exe");
 
 	runThread(pHandle, base_address);
