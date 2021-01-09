@@ -6,23 +6,7 @@ Obviously standard cheat 'recommendations' still apply:
 2.) Dont write impossible values
 3.) If your going internal use a manual map injector
 If you follow the guidelines above and use this bypass you will be safe from usermode anticheats like VAC.
-Obviously you can build and adapt upon my code to suit your needs.
-If I was to make a cheat for myself i would put this bypass into something i call an 'external internal' cheat.
-Whereby you make a cheat and inject into a legitimate program like discord and add a check to the this bypass to only hijack a handle from the process you inject into, giving the appearence that nothing is out of the ordinary
-However you can implement this bypass into any form of cheat, its your decision.
-If you need want some more info i recommend you watch my YT video on this bypass.
-Anyways if you want to see more of my stuff feel free to join my discord server https://discord.gg/GVyENvk. Here's my YT as well https://www.youtube.com/channel/UCPN6OOLxn1OaBP5jPThIiog.
 */
-#define F1          59
-#define F2          60
-#define F3          61
-#define F4          62
-#define F5          63
-#define F6          64
-#define F7          65
-#define F8          66
-#define F9          67
-#define F10         68
 #define VK_ESCAPE	0x1B 
 
 #include <Windows.h> 
